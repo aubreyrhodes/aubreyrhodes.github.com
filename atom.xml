@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Aubrey Rhodes]]></title>
+  <link href="http://aubreyrhodes.github.com/atom.xml" rel="self"/>
+  <link href="http://aubreyrhodes.github.com/"/>
+  <updated>2012-07-01T20:17:04-04:00</updated>
+  <id>http://aubreyrhodes.github.com/</id>
+  <author>
+    <name><![CDATA[Aubrey Rhodes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Goals]]></title>
+    <link href="http://aubreyrhodes.github.com/blog/2012/07/01/goals/"/>
+    <updated>2012-07-01T19:49:00-04:00</updated>
+    <id>http://aubreyrhodes.github.com/blog/2012/07/01/goals</id>
+    <content type="html"><![CDATA[<p>So, today we enter the second half of 2012 and I figured it was a good time to review my progress on some goals I had set out for myself and add one more.</p>
+
+<p><img src="https://img.skitch.com/20120702-jngidbeg39ckq8y4cbk32kqs8n.png" style="margin: 15px;" alt="2012 Goals"/></p>
+
+<p>In January, I set out 4 goals for myself and posted them to Facebook so that I would have some kind of accountability. I wanted all of the goals to be easily measurable and have a big impact on my life. As of the end of June I&#8217;ve made some really good progress so far:</p>
+
+<ul>
+<li>I&#8217;ve bought my new house, and it&#8217;s opened up a whole new neighborhood of Atlanta to me.</li>
+<li>Thanks to my <a href="http://highgroove.com">employer</a> providing a personal trainer and starting to train for the Peachtree Roadrace, I&#8217;ve been working out 4 times a week on average and have lost 20 lbs. so far this year.</li>
+<li>I&#8217;ve adopted a great new friend; a 3 month old border collie mix named Ernest and he&#8217;s been the highlight of my summer so far.</li>
+</ul>
+
+
+<p>I&#8217;ll admit that I haven&#8217;t made much progress on my final goal of starting a business thus far, but I&#8217;ve got some big plans for the next six months. The last six months have been transformative for me, and attribute that completely to setting these goals.</p>
+
+<p>Because these goals have been a success so far, I&#8217;ve decided to add one more. For the month of July, I want to write at least 5 blog posts per week. I have wanted to work on my writing for some time now, and I have decided to bias towards getting content in front of people instead of waiting for inspiration to hit.</p>
+
+<p>These will mostly relate to my professional life as a software developer and may tend to be more technical in nature. I definitely welcome any feedback or suggestions at aubrey.c.rhodes@gmail.com.</p>
+]]></content>
+  </entry>
+  
+</feed>

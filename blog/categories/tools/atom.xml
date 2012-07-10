@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tools | My Octopress Blog]]></title>
+  <link href="http://aubreyrhodes.github.com/blog/categories/tools/atom.xml" rel="self"/>
+  <link href="http://aubreyrhodes.github.com/"/>
+  <updated>2012-07-09T22:07:06-04:00</updated>
+  <id>http://aubreyrhodes.github.com/</id>
+  <author>
+    <name><![CDATA[Aubrey Rhodes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Scripting RVM]]></title>
+    <link href="http://aubreyrhodes.github.com/blog/2012/07/09/rvm-do/"/>
+    <updated>2012-07-09T21:38:00-04:00</updated>
+    <id>http://aubreyrhodes.github.com/blog/2012/07/09/rvm-do</id>
+    <content type="html"><![CDATA[<p><img src="https://rvm.io/images/logo.png" style="float: left; margin-right: 10px;"/></p>
+
+<p>While working on an issue for the <a href="https://github.com/highgroove/highgroove-generator">highgroove-generator</a> tool today, I came across an issue with RVM I hadn't faced before. The tool generates a new rails project setup just how we like it and needed to create an RVM gemset and run some commands using that gemset.</p>
+
+<p>I used <a href="https://github.com/wycats/thor">thor</a> to build the command line tool for the generator, which made it easy to script out the commands needed to script out the commands needed to put together the project. However, because the commands are run in a separate subshell each there are some problems with using <code>rvm create</code> and <code>rvm use</code> as I normally would to setup a gemset.</p>
+
+<p>Digging into the <a href="https://rvm.io/workflow/scripting/">RVM documentation</a>, I came across an action I hadn't seen before: <code>rvm do</code>. The <code>do</code> action lets you specify a ruby version and/or a gemset on a per command basis without having to worry about the state of the shell's environment. So using thor, <code>run 'gem install bundler'</code> becomes <code>rvm 1.9.3-p125@my_app do gem install bundler</code>. Viola!</p>
+
+<p>Checkout my <a href="https://github.com/highgroove/highgroove-generator/commit/d79aae09b9bdcd1c1daf4f0f01bd8b762c8232a5">commit to the generator</a> to see <code>rvm do</code> in action.</p>
+]]></content>
+  </entry>
+  
+</feed>

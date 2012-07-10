@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>My Octopress Blog</title>
+	<title>Scripting RVM - My Octopress Blog</title>
 	<meta name="author" content="Aubrey Rhodes">
 
 	
@@ -69,13 +69,9 @@
 
 </header>
 	
-	<div id="content" class="inner">
-
-
-    <article class="post">
-	<h1 class="title"><a href="/blog/2012/07/09/rvm-do/">Scripting RVM</a></h1>
-	<div class="entry-content">
-		<p><img src="https://rvm.io/images/logo.png" style="float: left; margin-right: 10px;"/></p>
+	<div id="content" class="inner"><article class="post">
+	<h1 class="title">Scripting RVM</h1>
+	<div class="entry-content"><p><img src="https://rvm.io/images/logo.png" style="float: left; margin-right: 10px;"/></p>
 
 <p>While working on an issue for the <a href="https://github.com/highgroove/highgroove-generator">highgroove-generator</a> tool today, I came across an issue with RVM I hadn&#8217;t faced before. The tool generates a new rails project setup just how we like it and needed to create an RVM gemset and run some commands using that gemset.</p>
 
@@ -84,10 +80,7 @@
 <p>Digging into the <a href="https://rvm.io/workflow/scripting/">RVM documentation</a>, I came across an action I hadn&#8217;t seen before: <code>rvm do</code>. The <code>do</code> action lets you specify a ruby version and/or a gemset on a per command basis without having to worry about the state of the shell&#8217;s environment. So using thor, <code>run 'gem install bundler'</code> becomes <code>rvm 1.9.3-p125@my_app do gem install bundler</code>. Viola!</p>
 
 <p>Checkout my <a href="https://github.com/highgroove/highgroove-generator/commit/d79aae09b9bdcd1c1daf4f0f01bd8b762c8232a5">commit to the generator</a> to see <code>rvm do</code> in action.</p>
-
-		
-		
-	</div>
+</div>
 
 
 <div class="meta">
@@ -113,64 +106,21 @@
 </div>
 	
 </div></article>
-
-
-    <article class="post">
-	<h1 class="title"><a href="/blog/2012/07/01/goals/">Goals</a></h1>
-	<div class="entry-content">
-		<p>So, today we enter the second half of 2012 and I figured it was a good time to review my progress on some goals I had set out for myself and add one more.</p>
-
-<p><img src="https://img.skitch.com/20120702-jngidbeg39ckq8y4cbk32kqs8n.png" style="margin: 15px;" alt="2012 Goals"/></p>
-
-<p>In January, I set out 4 goals for myself and posted them to Facebook so that I would have some kind of accountability. I wanted all of the goals to be easily measurable and have a big impact on my life. As of the end of June I&#8217;ve made some really good progress so far:</p>
-
-<ul>
-<li>I&#8217;ve bought my new house and it&#8217;s opened up a whole new neighborhood of Atlanta to me.</li>
-<li>Thanks to my <a href="http://highgroove.com">employer</a> providing a personal trainer and starting to train for the Peachtree Roadrace, I&#8217;ve been working out 4 times a week on average and have lost 20 lbs. so far this year.</li>
-<li>I&#8217;ve adopted a great new friend; a 3 month old border collie mix named Ernest and he&#8217;s been the highlight of my summer so far.</li>
-</ul>
-
-
-<p>I&#8217;ll admit that I haven&#8217;t made much progress on my final goal of starting a business thus far, but I&#8217;ve got some big plans for the next six months. The year so far has been transformative, and I attribute that completely to setting big goals in January.</p>
-
-<p>Because these goals have been a success so far, I&#8217;ve decided to add one more. For the month of July, I want to write at least 5 blog posts per week. I have wanted to work on my writing for some time now, and I have decided to bias towards getting content in front of people instead of waiting for inspiration to hit.</p>
-
-<p>These will mostly relate to my professional life as a software developer and may tend to be more technical in nature. I definitely welcome any feedback or suggestions at aubrey.c.rhodes@gmail.com.</p>
-
-		
-		
+<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
 	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-01T19:49:00-04:00" pubdate data-updated="true">Jul 1<span>st</span>, 2012</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/productivity/'>Productivity</a>, <a class='category' href='/blog/categories/writing/'>Writing</a>
-
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
 
 </div>
-	
-</div></article>
-
-<nav id="pagenavi">
-    
-    
-    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
-</nav></div>
 	<footer id="footer" class="inner">Copyright &copy; 2012
 
     Aubrey Rhodes
